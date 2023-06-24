@@ -1,4 +1,17 @@
 name: BuildIn
 version: '${project.version}'
-main: org.broseidon.buildin.BuildIn
+main: org.broseidon.buildin.main.BuildIn
 api-version: '1.19'
+author: Broseidon308
+prefix: BuildIn
+description: Build your house with one chest!
+depend:
+  - WorldEdit
+softdepend:
+  - WorldGuard
+commands:
+  package:
+    aliases:
+      - pk
+    permission: buildin.package
+    usage: '[Usage] package <create | delete | give | list>'

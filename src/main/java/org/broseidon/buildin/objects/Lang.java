@@ -14,7 +14,7 @@ public enum Lang{
     BUY("messages.buy", "Build block bought successfully!"),
     AFFORD("messages.afford", "Can't afford build block!"),
     SYNTAX("messages.syntax-error", "Incorrect syntax!"),
-    COMMANDS("messages.commands", "Commands: /in [give/create/delete]"),
+    COMMANDS("messages.commands", "Commands: /package [give/create/delete]"),
     CREATE("messages.create", "The schematic of %s was successfully created with the direction of %d!"),
     EXISTS("messages.exists", "This schematic does not exists!"),
     ALREADY_EXISTS("messages.already-exists", "This schematic already exists!"),

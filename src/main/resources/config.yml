@@ -1,0 +1,27 @@
+Options:
+  #Amount of time player gets to preview the schematic before
+  #cancellation (In seconds)
+  preview-time: 10
+
+  #Any schematic names listed within the brackets will require a
+  #permission node to use
+  #Ex: If you wanted schematic castle to have the perm node
+  #in.castle you'd put castle (CASE-SENSITIVE)
+  permissions: []
+
+  #Size of the radius to be checked around the schematic
+  #during placement
+  check-radius: 5
+
+  #If block-by-block is enabled this designates the
+  #speed per second
+  blocksPerSecond: 7
+
+  #Should resources be taken into account?
+  survival-mode: true
+
+  #Enable sound during block-by-block placement DISABLE IF USING 1.8
+  sound: false
+
+  #How long before uncompleted build task expire in minutes
+  expiry-time: 1200
