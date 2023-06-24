@@ -1,0 +1,4 @@
+name: BuildIn
+version: '${project.version}'
+main: org.broseidon.buildin.BuildIn
+api-version: '1.19'
